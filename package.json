@@ -1,11 +1,10 @@
 {
-  "name": "starter-kit",
-  "description": "Scaffolding for a cockpit module",
-  "type": "module",
-  "main": "index.js",
-  "repository": "git@github.com:cockpit/starter-kit.git",
-  "author": "",
-  "license": "LGPL-2.1",
+  "name": "cockpit-meshtasticd",
+  "description": "Cockpit page for managing a meshtasticd installation",
+  "repository": "git@github.com:chris-casper/cockpit-meshtasticd.git",
+  "author": "Chris Casper",
+  "version": "1.0.0",  
+  "license": "LGPL-2.1-or-later",
   "engines": {
     "node": ">= 16"
   },
