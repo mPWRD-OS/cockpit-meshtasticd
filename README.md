@@ -14,11 +14,11 @@ Reload Cockpit. The **Meshtasticd** entry will appear in the menu.
 
 Requires Node.js and npm.
 
-    git clone <repo-url> meshtasticd-cockpit
-    cd meshtasticd-cockpit
-    make
-    sudo mkdir -p /usr/local/share/cockpit
-    sudo ln -s "$(pwd)/dist" /usr/local/share/cockpit/meshtasticd
+git clone https://github.com/chris-casper/meshtasticd-cockpit.git
+cd meshtasticd-cockpit
+make
+sudo mkdir -p /usr/local/share/cockpit
+sudo ln -s "$(pwd)/dist" /usr/local/share/cockpit/meshtasticd
 
 ## Configuring the meshtasticd instance
 
